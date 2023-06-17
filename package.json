@@ -1,0 +1,40 @@
+{
+  "name": "svg-kit-cli",
+  "version": "0.4.0",
+  "description": "Some CLI utilities using SVG Kit.",
+  "main": "lib/cli.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "svgkit": "./bin/svgkit"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "svg-kit": "^0.4.0",
+    "terminal-kit": "^3.0.0"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/svg-kit-cli.git"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/svg-kit-cli/issues"
+  },
+  "copyright": {
+    "title": "SVG Kit CLI",
+    "years": [
+      2017,
+      2023
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}
